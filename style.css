@@ -1,0 +1,142 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+p.category {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+div.category{
+    margin-bottom:-18px;
+    text-align: center;
+}
+
+div.content {
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    margin: 0 10% 0 10%;
+    padding: 30px;
+    /* overflow: auto; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.description {
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+div.description {
+    text-align: center;
+
+}
+div.line{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    width: 100%;
+}
+div.info{
+    position: relative;
+}
+table.info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 80px;
+}
+table.info td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+table.info th{
+    padding-bottom: 8px;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+img.info{
+    display: block;
+    /* object-fit: cover;
+    max-height: 50%; */
+}
+div.col{
+    margin-top: 20px;
+    width: 45%;
+}
+div.col h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+}
+div.col1{
+    display: inline-block;
+    margin-right: 10px;
+}
+div.col2{
+    float: right;
+}
+div.ingredients p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+table.instruction p.number{
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    padding-top: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 0;
+}
+
+table.instruction td.instructionstep{
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+table.instruction td{
+    vertical-align: top;
+}
+
+table.instruction tr{
+    height: 40px;
+}
+
+*{
+    overflow: auto;
+}
